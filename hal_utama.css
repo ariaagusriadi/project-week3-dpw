@@ -1,0 +1,269 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ /* style */
+
+ body {
+ 	font :16px/28px arial, sans-serif;
+ background-image: url(img_halutama/herringbone.png);
+ background-attachment: fixed;
+ 	
+ }
+
+ /* style container*/
+
+ .container {
+ 	width: 1000px;
+ 	margin: auto;
+ 	position: relative;
+ 	background-color: white;
+ 	 }
+
+    /* style header */
+  .header {
+    padding: 20px;
+    padding-bottom: 10px;	
+  }
+    
+  .header .judul{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+   }
+  .header ul li{	
+    display: inline-block;
+    margin-top:30px;
+    margin-right: 10px;
+    font-size: 25px;
+    }
+    
+  .header a{
+    text-decoration: none;
+    color: rgb(196, 228, 83);
+    padding: 3px;
+    font-weight: bold;
+    }	 
+  .header a:hover {
+    background-color: wheat;
+    color: black;
+    }
+
+    /* style isi */
+ .isi{
+   width: 700px;
+   padding: 15px;
+   box-sizing: border-box;
+   float: left;
+ }   
+ .isi p{
+  margin-bottom: 15px;
+  font-size: 15px;
+ }
+
+/* clear fix floater */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+.cf {
+    *zoom: 1;
+}
+
+
+
+
+ /* style sidebar samping */
+.sidebar{
+  width:250px;
+  float: right;
+  padding: 15px;
+}
+
+.sidebar{
+  font-weight: bold;
+}
+
+.sidebar p{
+font: 15px/15px arial;
+}
+
+/* search */
+.kotak{
+  width: 800px;
+    text-indent: 12px;
+    padding: 7px;
+    font-size: 16px;
+    height: 15px;
+    border-radius: 3px;
+}
+
+.tombol{
+  width: 120px;
+  font-weight: bold;
+height: 34px;
+color :white;
+background:wheat;
+
+border-radius: 3px;
+}
+
+.search{
+  padding-top: 20px;
+}
+ /* style postingan */
+
+.postingnan{
+  width: 98%;
+  height: 150px;
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.gambar-depan{
+  float: left;
+  width: 140px;
+  height: 130px;
+  margin-right: 5px;
+  margin-top: 3px;
+  padding: 1px;
+}
+ .isi a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+ }
+ .isi a:hover{
+  color:#295d97;
+  
+  font-size: 20px;
+ }
+
+ /* style postingan sidebar */
+.sidebar h3{
+
+}
+
+
+.postingnan-sidebar{
+  margin-bottom: 5px;
+  padding: 5px;
+}
+
+.gambar-sidebar{
+  float: left;
+  width: 80px;
+  height: 60px;
+  margin-right: 5px;
+  margin-top: 3px;
+  padding: 1px;
+}
+ .sidebar a{
+   text-decoration: none;
+   color: black;
+   font-weight: bold;
+ }
+ .sidebar a:hover{
+  color:#295d97;
+  
+ }
+
+ /* style biodata */
+ .biodata{
+   text-align: center;
+   padding-top: 50px;
+   font-size: 15px;
+
+ }
+
+ .biodata h1{
+   font-weight: bold;
+ }
+
+
+.biodata li {
+  list-style: none;
+  display: inline-block;
+}
+
+.text {
+  
+  font-size: 15PX;
+  margin: 0;
+  font-weight: bold;
+  color: #324e63;
+}
+
+.biodata p{
+  color: #324e63;
+}
+
+/* style hr */
+
+hr  {
+  border-top: 4px dashed rgb(196, 228, 83);
+}
+
+/* style footer */
+
+.footer {
+	background-color: wheat;
+	padding :10px;
+}
+
+.footer .coppy {
+	color: black;
+	text-align: center;
+	font-size: 14px;
+}
